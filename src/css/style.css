@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 728px;
+    margin: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/************************
+        Nav
+************************/
+
+header {
+    background: #334450;
+    display: none;
+}
+
+.logo {
+    width: 60px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+a {
+    color: #EE5E63;
+    text-decoration: none;
+    transition: .5s ease all;
+}
+
+a:hover {
+    color: #333;
+}
+
+/************************
+        Intro
+************************/
+
+.intro {
+    background: #334450;
+    height: 100vh;
+    position: relative;
+}
+
+.intro-container {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.intro h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 12px;
+}
+
+.intro h1 span {
+    color: #EE5E63;
+}
+
+.intro h2 {
+    text-transform: uppercase;
+}
+
+.intro h2:after {
+    content: '';
+    height: 3px;
+    width: 100px;
+    background: #EE5E63;
+    display: block;
+    margin: 30px auto;
+}
+
+.intro .logo {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+}
+
+/************************
+        Skills
+************************/
+
+.skills {
+    width: 100%;
+    padding: 100px 0;
+    background: #333;
+    color: #fff;
+}
+
+.skills h2,
+.jobs h2 {
+    color: #fff;
+    border-bottom: 3px solid #EE5E63;
+    margin-bottom: 30px;
+    display: inline;
+}
+
+.skills .tech-container {
+    margin-top: 50px;
+}
+
+.skills h3 {
+    text-transform: uppercase;
+}
+
+.skills .third {
+    width: 40%;
+    float: left;
+}
+
+.skills .two-thirds {
+    width: 50%;
+    float: right;
+}
+
+.skills .half {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+
+.skills .development {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills .development li {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    float: left;
+    font-size: 12px;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    line-height: 82px;
+}
+
+.skills .tools,
+.skills .languages {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills .design {
+    margin: 0;
+    padding: 0;
+}
+
+.skills .design li {
+    list-style-type: none;
+    margin-right: 30px;
+    display: inline;
+}
+
+.skills .design li img {
+    width: 50px;
+}
+
+.skills i {
+    margin-right: 10px;
+}
+
+.skills h3 i {
+    font-size: 30px;
+}
+
+/************************
+        Jobs
+************************/
+.jobs {
+    width: 100%;
+    padding: 100px 0;
+    background: #334450;
+}
+
+.job-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.job {
+    width: 50%;
+    clear: both;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.job:after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 14px);
+    width: 16px;
+    height: 16px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    background: #334450;
+    transition: .5s ease all;
+}
+
+.job:nth-of-type(even) {
+    float: left;
+}
+
+.job:nth-of-type(odd) {
+    float: right;
+}
+
+.job:nth-of-type(even):after {
+    right: -14px;
+}
+
+.job:nth-of-type(odd):after {
+    left: -14px;
+}
+
+.job-content {
+    width: 70%;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    padding: 20px;
+    z-index: 2;
+    box-sizing: border-box;
+    line-height: 24px;
+}
+
+.job:hover:after {
+    background: #EE5E63;
+}
+
+.job-content:after {
+    content: '';
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    display: block;
+    transform: rotate(45deg);
+    top: calc(50% - 15px);
+    right: -5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.job:nth-of-type(odd) .job-content:after {
+    left: -5px;
+}
+
+.job-content img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.job:nth-of-type(even) .job-content {
+    float: left;
+}
+
+.job:nth-of-type(odd) .job-content {
+    float: right;
+}
+
+.job-line {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 1px);
+    width: 2px;
+    height: 100%;
+    background: #EE5E63;
+}
+
+.job .position {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/************************
+        Footer
+************************/
+
+footer {
+    clear: both;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+    background: #fff;
+}
+
+footer ul {
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer ul li a {
+    font-size: 40px;
+    margin: 0 20px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .skills .half {
+        width: 100%;
+        clear: both;
+        float: none;
+    }
+    .skills .third {
+        width: 100%;
+        clear: both;
+        float: none;
+    }
+    .skills .two-thirds {
+        width: 100%;
+        clear: both;
+        float: none;
+        padding-top: 40px;
+    }
+
+    .job-line {
+        display: none;
+    }
+
+    .job-content:after {
+        display: none;
+    }
+
+    .job:after {
+        display: none;
+    }
+
+    .job {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .job-content {
+        width: 100%;
+    }
+
+    .job-content img {
+        max-width: 300px;
+    }
+
+    .intro-container {
+        max-width: 90%;
+        margin-left: 0 !important;
+    }
+}
