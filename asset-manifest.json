@@ -1,14 +1,20 @@
 {
-  "main.css": "static/css/main.505d63d9.css",
-  "main.css.map": "static/css/main.505d63d9.css.map",
-  "main.js": "static/js/main.5a3f7252.js",
-  "main.js.map": "static/js/main.5a3f7252.js.map",
-  "static/media/fontawesome-webfont.eot?v=4.7.0": "static/media/fontawesome-webfont.674f50d2.eot",
-  "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
-  "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
-  "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/logo.svg": "static/media/logo.ad96b3c5.svg",
-  "static/media/loren.png": "static/media/loren.7e1cd6d1.png",
-  "static/media/myexpression.png": "static/media/myexpression.7cd8a339.png"
+  "files": {
+    "main.css": "/static/css/main.2e004d8b.chunk.css",
+    "main.js": "/static/js/main.bc4e3b12.chunk.js",
+    "main.js.map": "/static/js/main.bc4e3b12.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.e2b6ea14.chunk.js": "/static/js/2.e2b6ea14.chunk.js",
+    "static/js/2.e2b6ea14.chunk.js.map": "/static/js/2.e2b6ea14.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d1330366dad13cec81929712d3c9c9c4.js": "/precache-manifest.d1330366dad13cec81929712d3c9c9c4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2e004d8b.chunk.css.map": "/static/css/main.2e004d8b.chunk.css.map",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.svg": "/static/media/logo.ad96b3c5.svg",
+    "static/media/loren.png": "/static/media/loren.7e1cd6d1.png",
+    "static/media/myexpression.png": "/static/media/myexpression.7cd8a339.png",
+    "static/media/panda.png": "/static/media/panda.9b1df3fc.png"
+  }
 }
